@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .custom-shape-divider-bottom-1706134637 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-bottom-1706134637 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 223px;
+    transform: rotateY(180deg);
+  }
+
+  .custom-shape-divider-bottom-1706134637 .shape-fill {
+    fill: #590086;
+  }
+
+  .frontPage {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    padding: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 218, 243);
+  }
+
+  .frontPage h2 {
+    padding: 10px;
+    text-align: center;
+    color: #590086;
+    font-size: 44px;
+    display: block;
+  }
+
+  .frontPage input {
+    width: 30em;
+    padding: 12px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-color: orange;
+    box-shadow: 0 1px 2px 1px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frontPage button {
+    width: 20em;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: orange;
+    box-shadow: 0 2px 12px 2px #590086;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #590086;
+    border: none;
+    font-size: 14px;
+  }
+
+  .gamePage {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    padding: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 218, 243);
+  }
+
+  .gamePage h2 {
+    padding: 10px;
+    text-align: center;
+    color: #590086;
+    font-size: 44px;
+    display: block;
+  }
+
+  .gamePage input {
+    width: 30em;
+    padding: 12px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-color: orange;
+    box-shadow: 1px 1px 4px orange;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gamePage button {
+    width: 20em;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: orange;
+    box-shadow: 0 2px 12px 2px #590086;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #590086;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+   button:hover{
+background-color:rgb(195, 179, 149) ;
+  }
+  
+
+  @media (max-width: 600px) {
+    .frontPage h2 {
+      font-size: 22px;
+      display: block;
+    }
+
+    .frontPage input {
+      width: 15em;
+    }
+    .frontPage button {
+        width: 10em;
+    }
+
+    .gamePage h2 {
+      font-size: 22px;
+    }
+
+    .gamePage input {
+      width: 15em;
+    }
+    .gamePage button {
+        width: 10em;
+    }
+
+  }
